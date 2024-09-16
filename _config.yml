@@ -89,19 +89,23 @@ yandex_site_verification :
 baidu_site_verification  :
 
 # Social Sharing
-twitter:
-  username               : "jamesjang26"
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : "Person"
-  name                   : "jamesjang26"
-  links: "www.linkedin.com/in/jamesjang26"
+  type: "Person"
+  name: "James Jang"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/jamesjang26"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jamesjang26"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jamesjang26"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jamesjang26@snu.ac.kr"
+
 
 # Analytics
 analytics:
@@ -113,18 +117,25 @@ analytics:
 
 # Site Author
 author:
-  name             : "James Jang"
-  avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am Master's candidate, studying NLP especially in medical domain."
-  location         : "Seoul, Korea"
-  email            : 
+  name: "James Jang"
+  avatar: "/assets/images/profile.jpg" # 프로필 이미지 경로
+  bio: "I am Master's candidate, studying NLP especially in medical domain."
+  location: "Seoul, Korea"
+  email: "jamesjang26@snu.ac.kr"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:jamesjang26@snu.ac.kr
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/jamesjang26"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jamesjang26"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jamesjang26"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jamesjang26@snu.ac.kr"
+
 
 # Site Footer
 footer:

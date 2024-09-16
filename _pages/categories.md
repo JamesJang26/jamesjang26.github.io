@@ -1,7 +1,7 @@
 ---
 permalink: /categories/
-title: "Category"
+title: "Categories"
 toc: true
 toc_sticky: true
-toc_label: "Category"
+toc_label: "Categories"
 ---
