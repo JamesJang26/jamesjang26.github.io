@@ -10,12 +10,3 @@ Hello! My name is **James Jang**. I am currently pursuing a master's degree at S
 
 In this blog, I share my learnings and various projects. If you are interested, let’s learn together!
 
-## Recent Posts
-
-<ul>
-  {% for post in site.posts limit:5 %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%b %-d, %Y" }}
-    </li>
-  {% endfor %}
-</ul>
