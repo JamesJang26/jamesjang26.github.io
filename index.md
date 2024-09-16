@@ -1,7 +1,8 @@
 ---
-layout: single
-title: "James Jang"
+layout: archive
+title: "Hello there!"
 permalink: /
+author_profile: true
 ---
 
 ## About Me
