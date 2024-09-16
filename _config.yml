@@ -21,7 +21,7 @@ title                    : "James Jang"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "James Jang"
-description              : "Welcome to my home!"
+description              : "I am Master's candidate, studying NLP especially in medical domain."
 url                      : "jamesjang26.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/jamesjang26/jamesjang26.github.io"
@@ -90,7 +90,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "jamesjang26"
 facebook:
   username               :
   app_id                 :
@@ -99,9 +99,9 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "jamesjang26"
+  links: "www.linkedin.com/in/jamesjang26"
 
 # Analytics
 analytics:
@@ -115,9 +115,9 @@ analytics:
 author:
   name             : "James Jang"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am Master's candidate, studying NLP in medical domain."
+  bio              : "I am Master's candidate, studying NLP especially in medical domain."
   location         : "Seoul, Korea"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -299,3 +299,13 @@ defaults:
       comments: # true
       share: true
       related: true
+
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Posts"
+    url: "/posts/"
+  - title: "CV"
+    url: "/cv/"
+
