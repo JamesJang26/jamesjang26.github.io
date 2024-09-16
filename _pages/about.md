@@ -1,7 +1,11 @@
 ---
-permalink: /about/
-title: "About"
-toc: true
-toc_sticky: true
-toc_label: "MYSELF"
+layout: single
+title: "James Jang"
+permalink: /
 ---
+
+## About Me
+
+안녕하세요! 저는 **James Jang**입니다. 현재 서울대학교에서 석사 과정을 밟고 있으며, 주로 의료 데이터를 활용한 **자연어 처리(NLP)**에 대해 연구하고 있습니다.
+
+이 블로그에서는 제가 학습한 내용과 다양한 프로젝트를 공유합니다. 관심 있으시면 함께 배워나가요!

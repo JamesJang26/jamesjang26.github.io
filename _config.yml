@@ -301,10 +301,4 @@ defaults:
       related: true
 
 
-navigation:
-  - title: "Posts"
-    url: "/posts/"
-  - title: "CV"
-    url: "/cv/"
-
 
