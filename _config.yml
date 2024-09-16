@@ -88,24 +88,6 @@ naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
-# Social Sharing
-social:
-  type: "Person"
-  name: "James Jang"
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/jamesjang26"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jamesjang26"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/jamesjang26"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jamesjang26@snu.ac.kr"
-
 
 # Analytics
 analytics:
@@ -298,18 +280,30 @@ compress_html:
 
 
 # Defaults
+# Sidebar Settings
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      sidebar:
+        - about
+        - categories
+        - recent_posts
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        - about
+        - categories
+        - recent_posts
+
 
 
 
