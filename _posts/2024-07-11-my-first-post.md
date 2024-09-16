@@ -1,5 +1,6 @@
 ---
 title: "My first post"
+date: 2024-07-11
 categories:
  - blog
 tags:
