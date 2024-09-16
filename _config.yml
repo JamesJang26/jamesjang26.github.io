@@ -114,9 +114,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jamesjang26"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jamesjang26@snu.ac.kr"
 
 
 # Site Footer
