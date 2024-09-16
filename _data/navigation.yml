@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Introduce"
-    url: /about/
-  - title: "Category"
-    url: /categories/
+  - title: "Posts"
+    url: "/posts/"
+  - title: "CV"
+    url: "/cv/"
