@@ -5,7 +5,8 @@ permalink: /posts/
 author_profile: true
 ---
 
-{% for year in site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% for year in posts_by_year %}
   <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
   <ul class="posts">
     {% for post in year.items %}
