@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -105,15 +105,15 @@ author:
   location: "Seoul, Korea"
   email: "jamesjang26@snu.ac.kr"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/jamesjang26"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jamesjang26"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jamesjang26"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/jamesjang26"
 
 
 # Site Footer
@@ -125,6 +125,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jamesjang26"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jamesjang26"
 
 
 # Reading Files
@@ -252,10 +255,10 @@ whitelist:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 
@@ -265,13 +268,13 @@ jekyll-archives:
     - categories
     - tags
   layouts:
-    year: archive
-    category: archive
-    tag: archive
+    year: archive-taxonomy
+    category: archive-taxonomy
+    tag: archive-taxonomy
   permalinks:
     year: /posts/year/:year/
-    category: /category/:name/
-    tag: /tag/:name/
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 
@@ -292,10 +295,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar:
-        - about
-        - categories
-        - recent_posts
+      show_date: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 
   - scope:
       path: ""
