@@ -5,7 +5,8 @@ permalink: /
 author_profile: true
 header:
   image: /assets/images/niseko-japan.jpg
-  image_description: "Niseko, Japan, Feb 2024"
+#   image_description: "Niseko, Japan, Feb 2024"
+  caption: "Niseko, Japan, Feb 2024"
 ---
 
 
