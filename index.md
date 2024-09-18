@@ -3,6 +3,9 @@ layout: archive
 title: "Hello there!"
 permalink: /
 author_profile: true
+header:
+  image: /assets/images/niseko-japan.jpg
+  image_description: "Niseko, Japan, Feb 2024"
 ---
 
 
