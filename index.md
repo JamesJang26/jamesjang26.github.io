@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Hello there!"
+title: "Who am I?"
 permalink: /
 author_profile: true
 header:
@@ -16,7 +16,7 @@ My journey into artificial intelligence began during my undergraduate studies in
 
 One of the most significant turning points in my life was my time in the [**KATUSA**](https://en.wikipedia.org/wiki/Korean_Augmentation_to_the_United_States_Army). It was during military service that I discovered my love for reading, a habit that transformed my perspective and daily life. Before enlisting, I rarely read books, but after picking up **Higashino Keigo’s** [*"The Miracles of the Namiya General Store"*](https://en.wikipedia.org/wiki/Miracles_of_the_Namiya_General_Store) out of boredom, I was drawn into the world of books. This marked the beginning of a new routine: daily journaling, reading books, work out. These habits dramatically changed the direction of my life, instilling discipline and purpose.
 
-In the future, I aspire to contribute to making **artificial intelligence** a powerful tool that seamlessly integrates into our daily lives, much like **elevators** in modern buildings—something that enhances convenience and efficiency, though not always noticed. As my friend and inspiration [**Shim Jaejun**](https://www.linkedin.com/in/jjunshim/) once said, “AI will become as essential as elevators: not indispensable, but a transformative aid to our daily lives.” I fully share this vision and hope to build a company that will make AI a positive force and strong companion for as many people as possible.
+In the future, I aspire to contribute to making **artificial intelligence** a powerful tool that seamlessly integrates into our daily lives, much like **elevators** in modern buildings—something that enhances convenience and efficiency, though not always noticed. As my friend and inspiration [**Shim Jaejun**](https://jjunshim.github.io/) once said, “AI will become as essential as elevators: not indispensable, but a transformative aid to our daily lives.” I fully share this vision and hope to build a company that will make AI a positive force and strong companion for as many people as possible.
 
 While I’m committed to developing my skills and knowledge, I also believe it’s just as important to be a **kind** and **compassionate** person. I strive to lead a life where I’m both capable and warm-hearted, and although I have much to learn, I am committed to growing in this way.
 
