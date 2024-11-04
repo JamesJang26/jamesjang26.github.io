@@ -1,8 +1,12 @@
 ---
-layout: post
 title: "[Project] Tennis Swing Analysis"
 date: 2024-11-04
-categories: project
+categories:
+ - blog
+tags:
+ - Project
+ - AI
+ - ComputerVision
 ---
 
 # Tennis Motion Analysis System
@@ -66,8 +70,8 @@ while cap.isOpened():
 
 After extracting the joint coordinates, I used the [**CVAT annotation tool**](https://github.com/cvat-ai/cvat) to manually label each segment as either **forehand** or **backhand**. This labeled data was then organized into a dataset suitable for training the classification model.
 
-![tennis annotation w/ cvat 1](./images/tennis_cvat1.png)
-![tennis annotation w/ cvat 2](./images/tennis_cvat2.png)
+![tennis annotation w/ cvat 1](https://github.com/JamesJang26/jamesjang26.github.io/blob/master/assets/images/tennis_cvat1.png)
+![tennis annotation w/ cvat 2](https://github.com/JamesJang26/jamesjang26.github.io/blob/master/assets/images/tennis_cvat2.png)
 
 ```python
 # Example of finalized annotation dataset
