@@ -1,3 +1,10 @@
+---
+layout: post
+title: "[Project] Tennis Swing Analysis"
+date: 2024-11-04
+categories: project
+---
+
 # Tennis Motion Analysis System
 
 This project is a personal hobby endeavor aimed at creating a system that allows users to upload their own tennis videos, which are then analyzed to distinguish between **forehand** and **backhand** motions. The system also provides accuracy feedback by comparing the user’s form to a standard reference and offers suggestions for improvement.
@@ -59,8 +66,8 @@ while cap.isOpened():
 
 After extracting the joint coordinates, I used the [**CVAT annotation tool**](https://github.com/cvat-ai/cvat) to manually label each segment as either **forehand** or **backhand**. This labeled data was then organized into a dataset suitable for training the classification model.
 
-![tennis annotation w/ cvat 1](images/tennis_cvat1.png)
-![tennis annotation w/ cvat 2](images/tennis_cvat2.png)
+![tennis annotation w/ cvat 1](./images/tennis_cvat1.png)
+![tennis annotation w/ cvat 2](./images/tennis_cvat2.png)
 
 ```python
 # Example of finalized annotation dataset
