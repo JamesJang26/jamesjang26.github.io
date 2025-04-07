@@ -20,7 +20,7 @@ classes: narrow
         {% if pub.authors %}
           <p class="publication-authors">
             {% for author in pub.authors %}
-              {% if author == "James Jang" %}
+              {% if author == "Dongsuk Jang" %}
                 <strong>{{ author }}</strong>
               {% else %}
                 {{ author }}
