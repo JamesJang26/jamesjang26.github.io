@@ -10,7 +10,7 @@ header:
 ---
 
 
-😁 Welcome to my blog! My name is **James Jang**, and I am currently pursuing a master’s degree at [Seoul National University](https://en.wikipedia.org/wiki/Seoul_National_University), primarily focusing on **NLP** using medical data. Through this blog, I share my learnings, projects, and some thoughts.
+😁 Welcome to my blog! My name is **Dongsuk Jang**, and I am currently pursuing a master’s degree at [Seoul National University](https://en.wikipedia.org/wiki/Seoul_National_University), primarily focusing on **NLP** using medical data. Through this blog, I share my learnings, projects, and some thoughts.
 
 My journey into AI began during my undergraduate studies in **Integrative Biotechnology** at [Sungkyunkwan University](https://en.wikipedia.org/wiki/Sungkyunkwan_University). While contemplating my future career and what I truly wanted to pursue, I took an introductory AI course. That experience opened my eyes to the world of **deep learning** and **machine learning**, and I’ve been captivated by this field ever since. This passion led me to my current research, where I focus on medical NLP, although I also have a strong interest in **multimodal AI** and applications beyond healthcare.
 
