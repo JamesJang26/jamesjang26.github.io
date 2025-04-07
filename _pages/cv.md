@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Curriculum Vitae"
+title: ""
 permalink: /cv/
 author_profile: true
-show_title: false
+hide_title: true
 ---
 
 <!-- 제목 -->
