@@ -6,8 +6,9 @@ author_profile: true
 classes: narrow
 ---
 
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
 <div class="publication-list">
-  {% for pub in site.publications %}
+  {% for pub in sorted_pubs %}
     <div class="publication-item">
       <div class="publication-image">
         {% if pub.image %}

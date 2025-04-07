@@ -272,8 +272,7 @@ collections:
   publications:
     output: true
     permalink: /publications/:title/
-    sort_by: date
-    order: reverse
+
 
 # Defaults
 # Sidebar Settings
