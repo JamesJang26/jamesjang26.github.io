@@ -269,9 +269,9 @@ compress_html:
 
 # Collections
 collections:
-  portfolio:
+  publications:
     output: true
-    permalink: /:collection/:path/
+    permalink: /publications/:title/
 
 # Defaults
 # Sidebar Settings
