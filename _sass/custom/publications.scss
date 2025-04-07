@@ -1,55 +1,71 @@
 .publication-list {
-    margin-top: 1rem;
+  margin-top: 1rem;
+}
+
+.publication-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 1rem;
+}
+
+.publication-image {
+  margin-right: 5px; // 오른쪽 마진 줄임
+  img {
+    max-width: 300px; /* 이미지 크기 설정 */
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
   }
-  
-  .publication-item {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid #eaeaea;
-    padding-bottom: 1rem;
-  }
-  
-  .publication-image {
-    margin-right: 20px;
-  
-    img {
-      max-width: 300px; /* 원하는 이미지 너비 설정 */
-      height: auto;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-  }
-  
-  .publication-info {
-    flex: 1; /* 텍스트 영역이 남은 공간을 차지 */
-  }
-  
-  .publication-title {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-size: 1.25rem; /* 제목 크기 조정 */
-    font-weight: bold;
-  }
-  
-  .publication-authors {
-    color: #666;
-    margin: 0 0 0.5rem 0;
-  }
-  
-  .publication-venue {
-    font-style: italic;
-    color: #444;
-    margin: 0 0 0.5rem 0;
-  }
-  
-  .publication-date {
-    color: #999;
-    margin: 0 0 0.5rem 0;
-  }
-  
-  .publication-description {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
+}
+
+.publication-info {
+  flex: 1; /* 텍스트 영역이 남은 공간 차지 */
+  font-size: 0.9rem; /* 전체 텍스트 약간 작게 */
+  line-height: 1.4;
+}
+
+.publication-title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem; /* 제목 크기 약간 작게 조정 */
+  font-weight: bold;
+}
+
+.publication-authors {
+  color: #666;
+  margin: 0 0 0.5rem 0;
+}
+
+.publication-venue {
+  font-style: italic;
+  color: #444;
+  margin: 0 0 0.5rem 0;
+}
+
+.publication-date {
+  color: #999;
+  margin: 0 0 0.5rem 0;
+}
+
+.publication-description {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.publication-link a {
+  color: #007acc;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border: 1px solid #007acc;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.publication-link a:hover {
+  background-color: #007acc;
+  color: #fff;
+}
