@@ -10,4 +10,4 @@ hide_title: true
 <h1>Curriculum Vitae</h1>
 
 <!-- PDF 미리보기 (iframe) -->
-<iframe src="/assets/cv/DongsukJang_CV.pdf" style="width: 100%; height: 800px;" frameborder="0"></iframe>
+<iframe src="/assets/cv/Dongsuk_CV.pdf" style="width: 100%; height: 800px;" frameborder="0"></iframe>
