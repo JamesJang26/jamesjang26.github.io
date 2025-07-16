@@ -12,7 +12,9 @@ layout: single
       </div>
       <div class="publication-details">
         <h3 class="publication-title"><a href="{{ pub.url }}">{{ pub.title }}</a></h3>
-        <p class="publication-authors"><strong>{{ pub.authors }}</strong></p>
+        <p class="publication-authors">
+        <strong>{{ pub.authors | replace: "Dongsuk Jang", "<span class='author-highlight'>Dongsuk Jang</span>" }}</strong>
+        </p>
         <p class="publication-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</p>
         <p class="publication-description">{{ pub.description }}</p>
         {% if pub.pdf %}
