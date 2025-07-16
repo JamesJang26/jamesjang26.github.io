@@ -19,12 +19,6 @@ layout: single
         <p class="publication-description">{{ pub.description }}</p>
 
         <div class="publication-links">
-          {% if pub.pdf %}
-            <a href="{{ pub.pdf | relative_url }}" class="btn btn--primary">PDF</a>
-          {% endif %}
-          {% if pub.url and pub.url contains 'arxiv' %}
-            <a href="{{ pub.url }}" class="btn">arXiv</a>
-          {% endif %}
           {% if pub.code %}
             <a href="{{ pub.code }}" class="publication-link-icon" title="View Code on GitHub">
               <i class="fab fa-github"></i>
