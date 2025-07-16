@@ -13,16 +13,24 @@ layout: single
       <div class="publication-details">
         <h3 class="publication-title"><a href="{{ pub.url }}">{{ pub.title }}</a></h3>
         <p class="publication-authors">
-        <strong>{{ pub.authors | replace: "Dongsuk Jang", "<span class='author-highlight'>Dongsuk Jang</span>" }}</strong>
+          <strong>{{ pub.authors | replace: "Dongsuk Jang", "<span class='author-highlight'>Dongsuk Jang</span>" }}</strong>
         </p>
         <p class="publication-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</p>
         <p class="publication-description">{{ pub.description }}</p>
-        {% if pub.pdf %}
-          <a href="{{ pub.pdf | relative_url }}" class="btn btn--primary">PDF</a>
-        {% endif %}
-        {% if pub.code %}
-          <a href="{{ pub.code }}" class="btn">Code</a>
-        {% endif %}
+
+        <div class="publication-links">
+          {% if pub.pdf %}
+            <a href="{{ pub.pdf | relative_url }}" class="btn btn--primary">PDF</a>
+          {% endif %}
+          {% if pub.url and pub.url contains 'arxiv' %}
+            <a href="{{ pub.url }}" class="btn">arXiv</a>
+          {% endif %}
+          {% if pub.code %}
+            <a href="{{ pub.code }}" class="publication-link-icon" title="View Code on GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          {% endif %}
+        </div>
       </div>
     </div>
   {% endfor %}
