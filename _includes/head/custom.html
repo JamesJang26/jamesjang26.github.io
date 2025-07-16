@@ -19,5 +19,9 @@
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
+<!-- Academicons -->
+{% if site.academicons.enable %}
+  <link rel="stylesheet" href="{{ site.academicons.url | default: 'https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css' }}">
+{% endif %}
 
 <!-- end custom head snippets -->
