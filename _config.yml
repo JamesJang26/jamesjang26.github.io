@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name: "Dongsuk Jang"
-  avatar: "/assets/images/profile.jpg" # 프로필 이미지 경로
+  avatar: "/assets/images/profile.png" # 프로필 이미지 경로
   bio: "I am Master's candidate, studying NLP especially in medical domain."
   location: "New Haven, CT, USA"
   email: "james.jang@yale.edu"
