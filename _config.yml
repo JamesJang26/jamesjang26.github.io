@@ -276,6 +276,8 @@ collections:
     output: true
     permalink: /publications/:path/
 
+academicons:
+  enable: true
 
 # Defaults
 # Sidebar Settings
