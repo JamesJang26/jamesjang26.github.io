@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: publications
 title: "Publications"
 permalink: /publications/
 author_profile: true
-classes: narrow
 ---
 
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}

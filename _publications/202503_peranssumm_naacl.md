@@ -1,5 +1,5 @@
 ---
-title: "YaleNLP @ PerAnsSumm 2025: Multi-Perspective Integration via Mixture-of-Agents for Enhanced Healthcare QA Summarization"
+title: "Multi-Perspective Integration via Mixture-of-Agents for Enhanced Healthcare QA Summarization"
 date: 2025-03-29
 venue: "CL4Health @ NAACL 2025"
 authors: ["Dongsuk Jang", "Alan Li", "Arman Cohan"]

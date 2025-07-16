@@ -271,7 +271,7 @@ compress_html:
 collections:
   publications:
     output: true
-    permalink: /publications/:title/
+    permalink: /publications/:path/
 
 
 # Defaults

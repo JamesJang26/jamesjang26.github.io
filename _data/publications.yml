@@ -1,0 +1,24 @@
+- title: "YaleNLP @ PerAnsSumm 2025: Multi-Perspective Integration via Mixture-of-Agents for Enhanced Healthcare QA Summarization"
+  authors: "Dongsuk Jang, Alan Li, Arman Cohan"
+  venue: "CL4Health @ NAACL 2025"
+  year: 2025
+  image: "/assets/images/peranssumm_naacl2025.png"
+  url: "https://arxiv.org/abs/2504.03932"
+  description: "Solving enhanced healthcare qa summarization issues with MoA and some other approaches."
+  code: "https://github.com/JamesJang26/YALENLP-PerAnsSumm-2025" 
+
+- title: "LoraMap: Harnessing the Power of LoRA Connections"
+  authors: "Hyeryun Park, Jeongwon Kwak, Dongsuk Jang, Sumin Park, Jinwook Choi"
+  venue: "arXiv Preprint"
+  year: 2024
+  image: "/assets/images/loramap.png"
+  url: "https://arxiv.org/abs/2408.16264"
+  description: "Suggesting advanced LoRA connection method."
+
+- title: "Automated Information Extraction from Thyroid Operation Narrative: A Comparative Study of GPT-4 and Fine-tuned KoELECTRA"
+  authors: "Dongsuk Jang, Hyeryun Park, Jiye Son, Hyeonuk Hwang, Su-jin Kim, Jinwook Choi"
+  venue: "AMIA 2024 Informatics Summit"
+  year: 2024
+  image: "/assets/images/amia2024.png"
+  url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11141853/"
+  description: "Automated Information Extraction from Thyroid Operation Narrative with LLMs and ELECTRA model."
