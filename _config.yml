@@ -102,9 +102,9 @@ analytics:
 author:
   name: "Dongsuk Jang"
   avatar: "/assets/images/profile.jpg" # 프로필 이미지 경로
-  bio: "I am Master's candidate, studying NLP especially in medical domain."
-  location: "New Haven, CT, USA"
-  email: "james.jang@yale.edu"
+  bio: "I am Master's candidate studying NLP @SNU MedINFO | Prev @YaleNLP"
+  location: "Seoul, South Korea"
+  email: "jamesjang26@snu.ac.kr"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -125,7 +125,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:james.jang@yale.edu
+      url: mailto:jamesjang26@snu.ac.kr
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jamesjang26"
