@@ -1,6 +1,6 @@
 - title: "MedTutor: A Retrieval-Augmented LLM System for Case-Based Medical Education"
   authors: "Dongsuk Jang, Ziyao Shangguan, Kyle Tegtmeyer, Anurag Gupta, Jan Czerminski, Sophie Chheang, Arman Cohan"
-  venue: "Under Review at EMNLP System Demonstrations"
+  venue: "EMNLP 2025 System Demo"
   year: 2025
   image: "/assets/images/medtutor.png"
   url: "https://github.com/yale-nlp/medical-rag"
