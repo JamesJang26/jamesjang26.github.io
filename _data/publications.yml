@@ -3,7 +3,7 @@
   venue: "EMNLP 2025 System Demo"
   year: 2025
   image: "/assets/images/medtutor.png"
-  url: "https://github.com/yale-nlp/medical-rag"
+  url: "https://aclanthology.org/2025.emnlp-demos.24/"
   description: "A novel system designed to augment resident training by automatically generating evidence-based educational content from clinical case reports."
   code: "https://github.com/yale-nlp/medical-rag"
 
