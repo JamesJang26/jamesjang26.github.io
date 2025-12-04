@@ -118,6 +118,12 @@ author:
     - label: "X"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/jamesjang26"
+    - label: "Naver Blog"
+      icon: "fas fa-fw fa-blog"
+      url: "https://blog.naver.com/jds_inc"
+    - label: "USTA Profile"
+      icon: "fas fa-fw fa-tennis-ball"
+      url: "https://www.usta.com/en/home/play/player-search/profile.html#uaid=2019727188&tab=tournaments"
 
 
 # Site Footer
