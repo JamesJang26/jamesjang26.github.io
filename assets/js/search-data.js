@@ -36,7 +36,7 @@ ninja.data = [{
           title: '📄 Our paper “MedTutor: A Retrieval-Augmented LLM System for Case-Based Medical Education” has...',
           description: "",
           section: "News",},{id: "news-successfully-defended-my-master-s-thesis",
-          title: 'Successfully defended my Master’s thesis! 🎓',
+          title: '🎓 Successfully defended my Master’s thesis!',
           description: "",
           section: "News",},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
