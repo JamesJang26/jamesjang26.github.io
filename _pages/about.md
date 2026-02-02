@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master's Candidate @ <a href='https://medinfolab.snu.ac.kr/'>SNU MedINFO Lab</a> · Previously @ <a href='https://nlp.cs.yale.edu/'>YaleNLP</a>
+subtitle: Master's Candidate @ <a href='https://medinfolab.snu.ac.kr/'>SNU MedINFO Lab</a> | Previously @ <a href='https://nlp.cs.yale.edu/'>YaleNLP</a>
 
 profile:
   align: right
