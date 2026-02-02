@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-our-paper-on-automated-information-extraction-from-thyroid-operation-narratives-has-been-accepted-to-amia-informatics-summit-2024",
-          title: '📝 Our paper on automated information extraction from thyroid operation narratives has been...',
+        },{id: "news-presented-our-paper-automated-information-extraction-from-thyroid-operation-narrative-a-comparative-study-of-gpt-4-and-fine-tuned-koelectra-at-amia-informatics-summit-2024",
+          title: '🔈 Presented our paper “Automated Information Extraction from Thyroid Operation Narrative: A Comparative...',
           description: "",
           section: "News",},{id: "news-started-visiting-research-at-yalenlp-with-prof-arman-cohan",
           title: '🎓 Started visiting research at YaleNLP with Prof. Arman Cohan!',
@@ -34,6 +34,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-medtutor-a-retrieval-augmented-llm-system-for-case-based-medical-education-has-been-accepted-to-emnlp-2025-system-demo-track",
           title: '📄 Our paper “MedTutor: A Retrieval-Augmented LLM System for Case-Based Medical Education” has...',
+          description: "",
+          section: "News",},{id: "news-successfully-defended-my-master-s-thesis",
+          title: 'Successfully defended my Master’s thesis! 🎓',
           description: "",
           section: "News",},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
