@@ -74,8 +74,9 @@ while cap.isOpened():
 
 After extracting the joint coordinates, I used the [**CVAT annotation tool**](https://github.com/cvat-ai/cvat) to manually label each segment as either **forehand** or **backhand**. This labeled data was then organized into a dataset suitable for training the classification model.
 
-![tennis annotation w/ cvat 1](/assets/img/tennis_cvat1.png)
-![tennis annotation w/ cvat 2](/assets/img/tennis_cvat2.png)
+{% include figure.liquid path="assets/img/tennis_cvat1.png" class="img-fluid rounded z-depth-1" max-width="700px" caption="CVAT annotation tool - Task list" %}
+
+{% include figure.liquid path="assets/img/tennis_cvat2.png" class="img-fluid rounded z-depth-1" max-width="700px" caption="CVAT annotation tool - Labeling interface" %}
 
 ```python
 # Example of finalized annotation dataset
