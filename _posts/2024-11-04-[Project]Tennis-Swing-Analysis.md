@@ -1,12 +1,16 @@
 ---
+layout: post
 title: "[Project] Tennis Swing Analysis"
 date: 2024-11-04
+description: A system to analyze tennis swings using LSTM and MediaPipe for motion classification.
 categories:
- - blog
+  - blog
 tags:
- - Project
- - AI
- - ComputerVision
+  - Project
+  - AI
+  - ComputerVision
+giscus_comments: false
+related_posts: false
 ---
 
 # Tennis Motion Analysis System
