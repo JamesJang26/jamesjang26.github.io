@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-06-03'
 papers:
   3kKt0YkAAAAJ:2osOgNQ5qMEC:
     citations: 4
     title: 'MedTutor: A Retrieval-Augmented LLM System for Case-Based Medical Education'
     year: '2025'
   3kKt0YkAAAAJ:9yKSN-GCB0IC:
-    citations: 3
+    citations: 4
     title: 'Yalenlp@ peranssumm 2025: Multi-perspective integration via mixture-of-agents for enhanced healthcare qa summarization'
     year: '2025'
   3kKt0YkAAAAJ:u-x6o8ySG0sC:
